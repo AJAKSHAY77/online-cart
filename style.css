@@ -1,0 +1,156 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+body{
+    background-color:white;
+}
+
+.search{
+    display: flex;
+    border: 1px solid black;
+    padding: 4px 15px;
+    gap: 20px;
+    border-radius: 10px;
+
+}
+.search input{
+    border: none;
+    background-color: transparent;
+   
+}
+#wall{
+    padding: 0px 15px;
+    margin-top: 3%;
+}
+
+
+.firstnav{
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    gap: 30%;
+}
+.secondnav ul{
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    gap: 90px;
+    margin-top: 3%;
+}
+.secondnav ul li{
+    list-style: none;
+    padding: 9px 12px;
+  
+    font-size: 15px;
+    font-weight: 400;
+    
+    
+}
+.secondnav ul li:hover{
+    text-decoration: underline;
+    background-color:cadetblue;
+    border-radius: 10px;
+    color: white;   
+
+}
+header p {
+    text-align: center;
+    margin-top: 3%;
+    background-color:#d3292a;
+    padding: 9px 15px;
+    color: white;
+ font-size: 18px;
+
+}
+
+
+
+.first-5-toy{
+    display: flex;
+    justify-content: center;
+    /* align-content: center;
+    align-items: center; */
+    gap: 60px;  
+    padding: 0px 25px; 
+    margin-top: 3%;
+}
+
+.second-five-toys{
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    /* align-content: center;
+    align-items: center; */
+    gap: 60px; 
+    padding: 0px 25px; 
+
+}
+.toy{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* height: 300px;
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 10px; */
+    box-shadow: 0 0 12px black;
+   
+}
+#button{
+    background-color:orange;
+    font-size: 15px;
+    font-weight: 200;
+    font-family:cursive;
+    border: none;
+    border-radius: 9px;
+    margin-top: 2%;
+    
+}
+#button:hover{
+    background-color:orangered;
+}
+
+footer{
+    margin: 4% auto; 
+       
+   
+    height: 12%;
+    width: 95%;
+   
+    background-color: whitesmoke;
+    box-shadow: 0 0 10px black;
+    border-radius: 5px;
+}
+
+   
+.creating-table{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 16%;
+  
+    padding: 8px 10px;
+    background-color: orangered;
+
+}
+.creating-content{
+    padding: 30px;
+    
+}
+.total-price-bottom{
+    background-color:#068FFF;
+    display: flex;
+    justify-content:space-around;
+    padding: 8px 50px;
+
+}
+
+

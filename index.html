@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>aj.shopping</title>          
+</head>
+<body>
+    <header>
+        <nav class="firstnav">
+            <h1>Toy Shop</h1>
+            <div class="search">
+                <input  type="search"  placeholder="search for toys & more">
+                <img src="/assets/magnifying-glass-solid.svg" width="18px" alt="">
+            </div> 
+            <img src="/assets/cart-arrow-down-solid.svg" width="25px" alt="">
+        </nav>
+
+        <nav class="secondnav">
+            <ul>
+                <li>Shop By Age</li>
+                <li>Categories</li>
+                <li>New Arrivals</li>
+                <li>Develop skils</li>
+                <li>Sale</li>
+                <li>Premium Toys</li>
+            </ul>
+
+        </nav>
+       <p> GET  10%  OFF ON FIRST ORDER USE CODE: PLAY 10|Min.Cart Value Rs 500 </p>
+
+       <img  id="wall" src="/assets/website wall.webp" width="100%" alt="">
+  </header>
+  <main class="content">
+    <section class ="first-5-toy">
+        <div class="toy">
+            <img src="/assets/toy1.jpg" width="198px" height="198px" alt="">
+            
+            <button id="button" onclick="selectToy(0)"><p>Rs 799</p>Add to Cart</button>
+         </div>
+        <div class="toy">
+            <img src="/assets/toy7.jpg" width="200px" alt="">
+            
+            <button id="button" onclick="selectToy(1)"><p>Rs 599</p>Add to Cart</button>
+         </div>
+        <div class="toy">
+            <img src="/assets/toy6.jpg" width="200px" alt="">
+            
+            <button id="button" onclick="selectToy(2)"><p>Rs 999</p>Add to Cart</button>
+         </div>
+        <div class="toy">
+            <img src="/assets/toy4.jpg" width="200px" alt="">
+            
+            <button id="button" onclick="selectToy(3)"><p>Rs 2999</p>Add to Cart</button>
+         </div>
+        <div class="toy">
+            <img src="/assets/toy5.jpg" width="200px" alt="">
+            
+            <button id="button" onclick="selectToy(4)"><p>Rs 3999</p>Add to Cart</button>
+         </div>
+      
+    </section>
+
+    <section class="second-five-toys">
+        <div class="toy">
+            <img src="/assets/toy6.jpg" width="200px" alt="">
+            
+            <button id="button" onclick="selectToy(5)"><p>Rs 799</p>Add to Cart</button>
+         </div>
+        <div class="toy">
+            <img src="/assets/toy7.jpg" width="200px" alt="">
+            
+            <button id="button" onclick="selectToy(6)"><p>Rs 499</p>Add to Cart</button>
+         </div>
+        <div class="toy">
+            <img src="/assets/toy8.png" width="200px" alt="">
+            
+            <button id="button" onclick="selectToy(7)"><p>Rs 899</p>Add to Cart</button>
+         </div>
+        <div class="toy">
+            <img src="/assets/toy9.jpg" width="200px" alt="">
+            
+            <button id="button" onclick="selectToy(8)"><p>Rs 399</p>Add to Cart</button>
+         </div>
+        <div class="toy">
+            <img src="/assets/toy10.jpg" width="200px" alt="">
+            
+            <button id="button" onclick="selectToy(9)"><p>Rs699</p>Add to Cart</button>
+         </div>
+    </section>
+
+  </main>
+
+  <footer class="bill-book">
+    <div class="price-table">
+        <div class="creating-table">
+            <h3>Sr.No</h3>
+            <h3>Toy img</h3>
+            <h3>Toy Name</h3>
+            <h3>Quantity</h3>
+            <h3>Price(Rs)</h3>
+         </div>
+
+         <div class="price-content">
+           <!-- <div class="creating-content">
+             <h3>1</h3>
+            <h3>toy img</h3>
+            <h3>toy Name </h3>
+            <h3>5</h3>
+            <h3> q * p</h3>
+           </div> -->
+         </div>
+
+         <div class="total-price-bottom">
+            <h3 class="total-quantity">Total Quantity: 0</h3>
+            <h3 class="total-amount">Total Amount:0 </h3>
+
+         </div>
+
+    </div>
+
+  </footer>
+
+  <script src="/aj.js"></script>
+</body>
+
+</html>
